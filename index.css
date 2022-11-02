@@ -1,0 +1,18 @@
+main {
+    display: flex;
+}
+
+section:nth-child(1) {
+    flex: 3;
+}
+
+section:nth-child(1) img {
+    width: 24rem;
+    height: 24rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+section:nth-child(2) {
+    flex: 2;
+}
