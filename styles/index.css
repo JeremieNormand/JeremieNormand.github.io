@@ -27,7 +27,7 @@ section:nth-child(2) {
 section:nth-child(2) p {
     margin: .5rem;
     font-size: 3rem;
-    color: #ddd;
+    color: #eee;
 }
 
 section:nth-child(2) h2 {
@@ -36,6 +36,6 @@ section:nth-child(2) h2 {
     padding: .5rem 2rem;
     border-radius: 50%;
     font-size: 8rem;
-    background: #ddd;
+    background: #eee;
     color: #222;
 }
