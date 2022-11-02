@@ -8,7 +8,96 @@
 </head>
 
 <body>
-    
+    <header>
+        <h1><a href="#presentation">JN</a></h1>
+        <nav>
+            <a href="#competences">Compétences</a>
+            <a href="#experiences">Expériences</a>
+            <a href="#formations">Formations</a>
+            <a href="#realisations">Réalisations</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="presentation">
+        </section>
+    </main>
+
+    <footer>
+        <p>Jérémie Normand</p>
+        <p>1996 - <span></span></p>
+    </footer>
 </body>
+
+<style>
+    * {
+        /*background: rgba(64, 64, 64, .25);*/
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 100vh;
+    }
+
+    header {
+        display: flex;
+        background: #222;
+    }
+
+    header h1 {
+        flex: 1;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    header h1 a {
+        padding: .5rem;
+        border-radius: 50%;
+        text-decoration: none;
+        background: #ddd;
+        color: #222;
+    }
+
+    header nav {
+        flex: 7;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    header nav a {
+        padding: .5rem;
+        border-radius: .5rem;
+        text-decoration: none;
+        background: #111;
+        color: #ddd;
+    }
+
+    header nav a:hover {
+        background: #ddd;
+        color: #222;
+    }
+
+    main {
+        flex: auto;
+    }
+
+    footer {
+        padding: .5rem;
+        display: flex;
+        justify-content: space-around;
+        background: #222;
+        color: #ddd;
+    }
+</style>
+
+<script>
+    const year = document.querySelector('footer p span');
+    year.textContent = new Date().getFullYear();
+</script>
 
 </html>
