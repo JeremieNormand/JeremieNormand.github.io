@@ -1,9 +1,16 @@
 main {
     display: flex;
+    align-items: center;
+    background: rgb(96, 96, 96);
+    background:
+        linear-gradient(24deg, rgba(96, 96, 96, 1) 0%,
+        rgba(32, 32, 32, 0.96) 32%,
+        rgba(0, 0, 0, 1) 100%);
 }
 
 section:nth-child(1) {
     flex: 3;
+    text-align: center;
 }
 
 section:nth-child(1) img {
@@ -15,4 +22,20 @@ section:nth-child(1) img {
 
 section:nth-child(2) {
     flex: 2;
+}
+
+section:nth-child(2) p {
+    margin: .5rem;
+    font-size: 3rem;
+    color: #ddd;
+}
+
+section:nth-child(2) h2 {
+    display: inline;
+    margin: .5rem;
+    padding: .5rem 2rem;
+    border-radius: 50%;
+    font-size: 8rem;
+    background: #ddd;
+    color: #222;
 }
