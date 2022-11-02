@@ -2,3 +2,25 @@ header nav a:nth-child(1) {
     background: #222;
     color: #eee;
 }
+
+main {
+    margin: 0 16rem;
+    background: #eee;
+}
+
+section {
+    padding: 1rem;
+}
+
+section div {
+    display: flex;
+    padding-left: 2rem;
+}
+
+section div ul {
+    flex: 1;
+}
+
+section div ul li ul {
+    padding-left: 2rem;
+}
